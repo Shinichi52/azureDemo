@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="mobileCenterAnalytics_whenToEnableAnalytics">ENABLE_IN_JS</string>
     <string name="app_name">azureDemo</string>
 </resources>

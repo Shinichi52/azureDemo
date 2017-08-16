@@ -1,3 +1,7 @@
 rootProject.name = 'azureDemo'
+include ':mobile-center-analytics'
+project(':mobile-center-analytics').projectDir = new File(rootProject.projectDir, '../node_modules/mobile-center-analytics/android')
+include ':mobile-center'
+project(':mobile-center').projectDir = new File(rootProject.projectDir, '../node_modules/mobile-center/android')
 
 include ':app'
